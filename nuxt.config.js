@@ -4,23 +4,9 @@ const meta = {
   title: 'UPDATE'
 }
 
-const iconImages =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? '/ciervo.biz/images/icons/'
-    : '/images/icons/'
-
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/ciervo.biz/'
-        }
-      }
-    : {}
+const iconImages = '/images/icons/'
 
 module.exports = {
-  ...routerBase,
-
   mode: 'universal',
 
   /*
