@@ -4,15 +4,16 @@ const meta = {
   title: 'UPDATE'
 }
 
-const iconImages = process.env.DEPLOY_ENV === 'GH_PAGES'
-? '/kozimon.com/images/icons/'
-: '/images/icons/'
+const iconImages =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? '/ciervo.biz/images/icons/'
+    : '/images/icons/'
 
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/kozimon.com/'
+          base: '/ciervo.biz/'
         }
       }
     : {}
@@ -189,7 +190,7 @@ module.exports = {
   },
 
   manifest: {
-    name: 'kozimon.com',
+    name: 'ciervo.biz',
     lang: 'ja'
   }
 }
