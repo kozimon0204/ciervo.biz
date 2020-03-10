@@ -21,9 +21,9 @@ export default {
     return {
       meta: [
         {
-          hid: 'kozikozi',
-          name: 'kozi~mon~',
-          content: 'kozimon! kozimon!'
+          hid: 'Ciervo',
+          name: 'Ciervo~Ciervo~',
+          content: 'Ciervo! Ciervo!'
         }
       ]
     }

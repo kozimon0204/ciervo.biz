@@ -15,7 +15,7 @@ module.exports = {
   head: {
     title: '',
     titleTemplate: titleChunk => {
-      return titleChunk ? `${titleChunk} - kozimon` : 'kozimon'
+      return titleChunk ? `${titleChunk} - Ciervo` : 'Ciervo'
     },
     htmlAttrs: {
       lang: 'ja'
@@ -30,9 +30,9 @@ module.exports = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'kozimon',
+        content: 'Ciervo',
         template: chunk => {
-          return chunk ? `${chunk} - kozimon` : 'kozimon'
+          return chunk ? `${chunk} - Ciervo` : 'Ciervo'
         }
       },
       {
@@ -53,12 +53,12 @@ module.exports = {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'kozimon'
+        content: 'Ciervo'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'kozimon'
+        content: 'Ciervo'
       },
       {
         hid: 'fb:app_id',
